@@ -1,4 +1,3 @@
-![starscream](https://raw.githubusercontent.com/daltoniam/starscream/assets/starscream.jpg)
 
 Starscream is a conforming WebSocket ([RFC 6455](http://tools.ietf.org/html/rfc6455)) library in Swift.
 
@@ -227,7 +226,7 @@ $ brew install carthage
 To integrate Starscream into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```
-github "daltoniam/Starscream" >= 4.0.0
+github "LeoJinDev/Starscream" >= 4.0.0
 ```
 
 ### Accio
@@ -237,7 +236,7 @@ Check out the [Accio](https://github.com/JamitLabs/Accio) docs on how to add a i
 Add the following to your Package.swift:
 
 ```swift
-.package(url: "https://github.com/daltoniam/Starscream.git", .upToNextMajor(from: "4.0.0")),
+.package(url: "https://github.com/LeoJinDev/Starscream.git", .upToNextMajor(from: "4.0.0")),
 ```
 
 Next, add `Starscream` to your App targets dependencies like so:
@@ -260,7 +259,7 @@ First see the [installation docs](https://github.com/acmacalister/Rogue) for how
 To install Starscream run the command below in the directory you created the rogue file.
 
 ```
-rogue add https://github.com/daltoniam/Starscream
+rogue add https://github.com/LeoJinDev/Starscream
 ```
 
 Next open the `libs` folder and add the `Starscream.xcodeproj` to your Xcode project. Once that is complete, in your "Build Phases" add the `Starscream.framework` to your "Link Binary with Libraries" phase. Make sure to add the `libs` folder to your `.gitignore` file.
@@ -273,7 +272,7 @@ Once you have your Swift package set up, adding Starscream as a dependency is as
 
 ```swift
 dependencies: [
-    .Package(url: "https://github.com/daltoniam/Starscream.git", majorVersion: 4)
+    .Package(url: "https://github.com/LeoJinDev/Starscream.git", majorVersion: 4)
 ]
 ```
 
@@ -295,14 +294,3 @@ If you are running this in an OSX app or on a physical iOS device you will need 
 
 Starscream is licensed under the Apache v2 License.
 
-## Contact
-
-### Dalton Cherry
-* https://github.com/daltoniam
-* http://twitter.com/daltoniam
-* http://daltoniam.com
-
-### Austin Cherry ###
-* https://github.com/acmacalister
-* http://twitter.com/acmacalister
-* http://austincherry.me
